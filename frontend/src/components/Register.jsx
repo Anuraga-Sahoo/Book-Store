@@ -35,7 +35,7 @@ const Register = () => {
             <label className='block text-gray-700 text-sm font-bold mb-2' htmlFor="password">Password</label>
             <input
             {...register("password", { required: true })} 
-            type="password" name='password' id='password' placeholder='password' className='shadow appearance-none border w-full py-2 px-3 leading-tight focus:outline-none focus:shadow' />
+            type="password" name='password' id='password' placeholder='Password' className='shadow appearance-none border w-full py-2 px-3 leading-tight focus:outline-none focus:shadow' />
           </div>
           {
             message && <p className='text-red-500 text-xs italic mb-3'>{message}</p>
